@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+# Install JupyterLab extensions for Plotly and ipywidgets
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget --no-build
+
+# Build JupyterLab
+jupyter lab build
