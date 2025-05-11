@@ -1,5 +1,5 @@
-pandas
-ipywidgets
-plotly
-voila
-anywidget
+pandas==2.2.3
+plotly==5.24.1
+ipywidgets==8.1.6
+voila==0.5.8
+numpy==1.26.2
